@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CertiInmueble - Certificados Digitales Inmobiliarios</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <!-- Fuente principal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Fuente Roboto para Material Design -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- MENÚ SUPERIOR -->
+<nav class="Top-Header mat-elevation-z6">
+    <a href="#" class="logo">
+        <img src="Images/logo_certiinmueble.png" alt="Logo CertiInmueble" width="55" height="55"/>
+        <span class="logo-text">CertiInmueble</span>
+    </a>
+
+    <!-- BOTÓN HAMBURGUESA -->
+    <button class="menu-toggle mat-icon-button" aria-label="Abrir menú">
+        <span class="material-icons">menu</span>
+    </button>
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <ul class="Menu-Horizontal">
+        <li><a href="#Nosotros" class="mat-menu-item">Nosotros</a></li>
+        <li><a href="#Servicios" class="mat-menu-item">Servicios</a></li>
+        <li><a href="#Beneficios" class="mat-menu-item">Beneficios</a></li>
+        <li><a href="#Solicitar" class="mat-menu-item">Solicitar Certificado</a></li>
+
+        <li class="mat-menu-item">
+            <a href="#Informacion" class="with-chevron">Información <span class="material-icons">expand_more</span></a>
+            <ul class="Menu-Vertical mat-elevation-z4">
+                <li><a href="#"><span class="material-icons">description</span>Tipos de Certificado</a></li>
+                <li><a href="#"><span class="material-icons">help</span>Preguntas Frecuentes</a></li>
+                <li><a href="#"><span class="material-icons">article</span>Blog</a></li>
+            </ul>
+        </li>
+        <li class="mat-menu-item">
+            <a href="#contacto" class="with-chevron">Contacto <span class="material-icons">expand_more</span></a>
+            <ul class="Menu-Vertical mat-elevation-z4">
+                <li><a href="#"><span class="material-icons">phone</span>Télefono</a></li>
+                <li><a href="#"><span class="material-icons">email</span>Correo electrónico</a></li>
+                <li><a href="#"><span class="material-icons">location_on</span>Oficinas</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<main class="main-content">
+    <!-- SECCIÓN HERO -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Transformamos el mercado inmobiliario con certificados digitales verificables</h1>
+            <p>CertiInmueble proporciona transparencia, seguridad y confianza en transacciones inmobiliarias mediante certificados digitales inalterables</p>
+            <div class="hero-actions">
+                <a href="#Solicitar" class="mat-raised-button">Solicitar Certificado</a>
+                <a href="#Nosotros" class="mat-button">Conocer más</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80" alt="Certificación Inmobiliaria">
+        </div>
+    </section>
+
+    <!-- SECCIÓN NOSOTROS -->
+    <section class="Nosotros mat-card" id="Nosotros">
+        <h2 class="mat-headline">Sobre CertiInmueble</h2>
+        <div class="Nosotros-Contenido">
+            <div class="Nosotros-Texto">
+                <p>
+                    CertiInmueble es una startup innovadora fundada por estudiantes de Ingeniería de Software de la UPC, 
+                    orientada a transformar el mercado inmobiliario mediante la emisión de certificados digitales verificables 
+                    sobre el estado de inmuebles.
+                </p>
+                <p>
+                    Nuestra plataforma web integra información técnica, legal y estructural en documentos digitales 
+                    inalterables, proporcionando transparencia y confianza en las transacciones inmobiliarias.
+                </p>
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Verificable</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Alteraciones</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Disponible</span>
+                    </div>
+                </div>
+            </div>
+            <div class="Nosotros-Video">
+                <div class="video-container mat-elevation-z6">
+                    <iframe
+                            src="https://www.youtube.com/embed/jNQXAC9IVRw?si=6s6vC2fQq8eXk3Xz"
+                            title="Certificación Inmobiliaria Digital"
+                            allowfullscreen
+                            loading="lazy"
+                    >
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SERVICIOS -->
+    <section class="Servicios mat-card" id="Servicios">
+        <h2 class="mat-headline">Nuestros Servicios</h2>
+        <div class="Servicios-Contenido">
+            <div class="servicio-item">
+                <div class="servicio-icon">
+                    <span class="material-icons">home</span>
+                </div>
+                <h3>Certificado Técnico</h3>
+                <p>Evaluación completa del estado estructural y técnico del inmueble, incluyendo instalaciones eléctricas, fontanería y sistemas.</p>
+            </div>
+            <div class="servicio-item">
+                <div class="servicio-icon">
+                    <span class="material-icons">gavel</span>
+                </div>
+                <h3>Certificado Legal</h3>
+                <p>Verificación de la situación legal del inmueble, incluyendo propiedad, cargas, deudas y situación registral.</p>
+            </div>
+            <div class="servicio-item">
+                <div class="servicio-icon">
+                    <span class="material-icons">verified</span>
+                </div>
+                <h3>Certificado Integral</h3>
+                <p>Combinación de los certificados técnico y legal en un único documento completo con verificación blockchain.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN BENEFICIOS -->
+    <section class="Beneficios mat-card" id="Beneficios">
+        <h2 class="mat-headline">Beneficios</h2>
+        <div class="Beneficios-Contenido">
+            <div class="beneficios-list">
+                <div class="beneficio-item">
+                    <span class="material-icons">security</span>
+                    <h3>Seguridad</h3>
+                    <p>Documentos digitales inalterables con tecnología blockchain que garantizan la autenticidad.</p>
+                </div>
+                <div class="beneficio-item">
+                    <span class="material-icons">visibility</span>
+                    <h3>Transparencia</h3>
+                    <p>Información clara y verificable sobre el estado real del inmueble para todas las partes.</p>
+                </div>
+                <div class="beneficio-item">
+                    <span class="material-icons">savings</span>
+                    <h3>Ahorro</h3>
+                    <p>Reduce tiempos y costos en transacciones inmobiliarias al contar con información confiable.</p>
+                </div>
+                <div class="beneficio-item">
+                    <span class="material-icons">bolt</span>
+                    <h3>Rapidez</h3>
+                    <p>Procesos ágiles con resultados disponibles en menos tiempo que los métodos tradicionales.</p>
+                </div>
+            </div>
+            <div class="beneficios-image">
+                <img
+                        src="https://images.unsplash.com/photo-1634942536746-46b9a6de9231?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt="Beneficios de CertiInmueble"
+                        class="mat-elevation-z6"
+                />
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOLICITAR CERTIFICADO -->
+    <section class="Solicitar mat-card" id="Solicitar">
+        <h2 class="mat-headline">Solicita tu Certificado</h2>
+        <div class="Solicitar-Contenido">
+            <!-- FORMULARIO -->
+            <form class="Formulario-Solicitud" id="formularioSolicitud" name="frmSolicitud">
+                <div class="Form-Grupo mat-input-group">
+                    <label class="Label-Contacto mat-input-label" for="nombres">Nombres:</label>
+                    <div class="mat-input-container">
+                        <input type="text" id="nombres" class="mat-input" required/>
+                    </div>
+                </div>
+                <div class="Form-Grupo mat-input-group">
+                    <label class="Label-Contacto mat-input-label" for="apellidos">Apellidos:</label>
+                    <div class="mat-input-container">
+                        <input type="text" id="apellidos" class="mat-input" required/>
+                    </div>
+                </div>
+                <div class="Form-Grupo mat-input-group">
+                    <label class="Label-Contacto mat-input-label" for="tipoDoc"
+                    >Tipo de Documento:</label
+                    >
+                    <div class="mat-input-container">
+                        <select id="tipoDoc" name="tipoDoc" class="mat-select" required>
+                            <option value="">Seleccione...</option>
+                            <option value="dni">DNI</option>
+                            <option value="pasaporte">Pasaporte</option>
+                            <option value="carnet">Carnet de Extranjería</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="Form-Grupo mat-input-group">
+                    <label class="Label-Contacto mat-input-label" for="numeroDoc">Número de Documento:</label>
+                    <div class="mat-input-container">
+                        <input type="text" id="numeroDoc" class="mat-input" required/>
+                    </div>
+                </div>
+                <div class="Form-Grupo mat-input-group">
+                    <label class="Label-Contacto mat-input-label" for="email"
+                    >Correo electrónico:</label
+                    >
+                    <div class="mat-input-container">
+                        <input type="email" id="email" class="mat-input" required/>
+                    </div>
+                </div>
+                <div class="Form-Grupo mat-input-group">
+                    <label class="Label-Contacto mat-input-label" for="telefono">Teléfono:</label>
+                    <div class="mat-input-container">
+                        <input type="tel" id="telefono" class="mat-input" required/>
+                    </div>
+                </div>
+                <div class="Form-Grupo mat-input-group">
+                    <label class="Label-Contacto mat-input-label" for="tipoInmueble">Tipo de Inmueble:</label>
+                    <div class="mat-input-container">
+                        <select id="tipoInmueble" name="tipoInmueble" class="mat-select" required>
+                            <option value="">Seleccione...</option>
+                            <option value="casa">Casa</option>
+                            <option value="departamento">Departamento</option>
+                            <option value="local">Local Comercial</option>
+                            <option value="oficina">Oficina</option>
+                            <option value="terreno">Terreno</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="Form-Grupo mat-input-group">
+                    <label class="Label-Contacto mat-input-label" for="direccion">Dirección del Inmueble:</label>
+                    <div class="mat-input-container">
+                        <input type="text" id="direccion" class="mat-input" required/>
+                    </div>
+                </div>
+                <div class="Form-Grupo mat-input-group">
+                    <label class="Label-Contacto mat-input-label" for="tipoCertificado">Tipo de Certificado:</label>
+                    <div class="mat-input-container">
+                        <select id="tipoCertificado" name="tipoCertificado" class="mat-select" required>
+                            <option value="">Seleccione...</option>
+                            <option value="tecnico">Certificado Técnico</option>
+                            <option value="legal">Certificado Legal</option>
+                            <option value="integral">Certificado Integral</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="Form-Grupo">
+                    <label class="Label-Contacto mat-checkbox-label">Preferencias de contacto:</label>
+                    <div class="checkboxes">
+                        <label class="mat-checkbox">
+                            <input type="checkbox" name="preferencia" value="correo"/>
+                            <span class="mat-checkbox-frame"></span>
+                            <span class="mat-checkbox-label">Correo</span>
+                        </label>
+                        <label class="mat-checkbox">
+                            <input type="checkbox" name="preferencia" value="telefono"/>
+                            <span class="mat-checkbox-frame"></span>
+                            <span class="mat-checkbox-label">Teléfono</span>
+                        </label>
+                        <label class="mat-checkbox">
+                            <input type="checkbox" name="preferencia" value="whatsapp"/>
+                            <span class="mat-checkbox-frame"></span>
+                            <span class="mat-checkbox-label">WhatsApp</span>
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="mat-raised-button">Enviar Solicitud</button>
+            </form>
+            <!-- INFORMACIÓN ADICIONAL -->
+            <div class="Solicitar-Instrucciones">
+                <div class="mat-card info-card">
+                    <h3><span class="material-icons">info</span> Información importante</h3>
+                    <p>
+                        Una vez enviada tu solicitud, nuestro equipo se pondrá en contacto contigo dentro de las próximas 24 horas 
+                        para coordinar la visita técnica y recopilación de documentación necesaria.
+                    </p>
+                    <p>
+                        El proceso de certificación tarda entre 3-5 días hábiles una vez recopilada toda la información necesaria.
+                    </p>
+                    <ul>
+                        <li>Documentación requerida: DNI, Escrituras o contrato de propiedad, Recibos de servicios.</li>
+                        <li>La visita técnica tiene un costo adicional según la ubicación y tamaño del inmueble.</li>
+                        <li>Todos nuestros certificados incluyen verificación blockchain para máxima seguridad.</li>
+                    </ul>
+                </div>
+                <div
+                        id="mensajeEnviado"
+                        class="Mensaje-Enviado mat-snackbar"
+                        style="display: none"
+                >
+                    <span class="material-icons">check_circle</span>
+                    Solicitud enviada correctamente.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PREGUNTAS FRECUENTES -->
+    <section class="Preguntas mat-card" id="Preguntas">
+        <h2 class="mat-headline">Preguntas Frecuentes</h2>
+        <div class="Preguntas-Contenido">
+            <div class="pregunta-item">
+                <h3>¿Qué validez legal tienen los certificados de CertiInmueble?</h3>
+                <p>Nuestros certificados tienen validez legal como documentación técnica y están respaldados por peritos certificados. Además, al utilizar tecnología blockchain, proporcionamos un nivel adicional de autenticidad y verificación.</p>
+            </div>
+            <div class="pregunta-item">
+                <h3>¿Cuánto tiempo tarda el proceso de certificación?</h3>
+                <p>El proceso completo tarda entre 3-5 días hábiles desde la visita técnica y recopilación de toda la documentación necesaria.</p>
+            </div>
+            <div class="pregunta-item">
+                <h3>¿Puedo usar el certificado para trámites bancarios?</h3>
+                <p>Sí, muchos bancos e instituciones financieras aceptan nuestros certificados para evaluación de garantías inmobiliarias. Te recomendamos verificar con tu entidad financiera específica.</p>
+            </div>
+            <div class="pregunta-item">
+                <h3>¿Qué sucede si el inmueble no cumple con los requisitos?</h3>
+                <p>En caso de que el inmueble no cumpla con los estándares, emitimos un informe detallado con las observaciones y recomendaciones para regularizar la situación.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- PIE DE PAGINA -->
+<section id="footer">
+    <footer class="Footer">
+        <div class="Footer-Container">
+            <!-- Logo y nombre de sitio -->
+            <div class="Footer-Brand">
+                <img
+                        src="Images/logo_certiinmueble.png"
+                        alt="Logo CertiInmueble"
+                        class="Footer-Logo"
+                />
+                <p>CertiInmueble</p>
+                <p>Transformando el mercado inmobiliario con tecnología</p>
+                <small>© 2025 Todos los derechos reservados</small>
+            </div>
+            <!-- Enlaces legales -->
+            <div class="Footer-Links">
+                <h4>Legal</h4>
+                <a
+                        href="#"
+                        target="_blank"
+                >Política de Privacidad</a>
+                <a
+                        href="#"
+                        target="_blank"
+                >Términos y Condiciones</a>
+                <a href="#">Protección de Datos</a>
+            </div>
+            <!-- Contacto -->
+            <div class="Footer-Contact">
+                <h4>Contacto</h4>
+                <p><span class="material-icons">location_on</span> Universidad Peruana de Ciencias Aplicadas, Lima</p>
+                <p><span class="material-icons">email</span> info@certiinmueble.com</p>
+                <p><span class="material-icons">phone</span> (01) 123-4567</p>
+            </div>
+            <!-- Redes sociales -->
+            <div class="Footer-Social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank" class="mat-icon-button"
+                    ><span class="material-icons">facebook</span></a>
+                    <a href="https://www.instagram.com" target="_blank" class="mat-icon-button"
+                    ><span class="material-icons">photo_camera</span></a>
+                    <a href="https://x.com/home?lang=es" target="_blank" class="mat-icon-button"
+                    ><span class="material-icons">flutter_dash</span></a>
+                    <a href="https://linkedin.com" target="_blank" class="mat-icon-button"
+                    ><span class="material-icons">linkedin</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="Footer-Credits">
+            <p>Desarrollado por estudiantes de Ingeniería de Software de la UPC</p>
+        </div>
+    </footer>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
