@@ -804,3 +804,27 @@ body {
     margin-bottom: 8px;
   }
 }
+.App-Button {
+  /* Alineación para el botón destacado en el menú */
+  height: 40px; /* Reducir altura para que parezca botón y no barra */
+  line-height: 40px; /* Asegurar texto centrado verticalmente */
+  padding: 0 16px;
+  margin: 12px 16px 12px 0; /* Centrado vertical: (64px - 40px) / 2 = 12px */
+  background-color: var(--secondary-color) !important; /* Forzar color */
+  color: white !important;
+}
+
+.App-Button:hover {
+  background-color: #d35400 !important;
+}
+
+@media (max-width: 768px) {
+  /* Ajuste para el botón de la App en vista móvil */
+  .App-Button {
+    height: 48px; /* Altura de ítem de menú estándar para móvil */
+    line-height: 48px;
+    margin: 8px 16px; /* Ajustar margen para que parezca un botón de bloque */
+    width: auto;
+    align-self: center; /* Centrar si el menú se usa como bloque */
+  }
+}
